@@ -1,0 +1,20 @@
+{
+    "hosting": {
+      "public": "build", // Adjust this to your build or public folder
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    "functions": {
+      // Add Firebase Cloud Functions configuration if applicable
+    },
+    "firestore": {
+      // Add Firestore rules if applicable
+    },
+    "storage": {
+      // Add Cloud Storage rules if applicable
+    }
+  }
